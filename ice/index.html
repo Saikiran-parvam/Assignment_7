@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/bootstrap/bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/css/bootstrap.min.css">
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+  <title>IceWorld</title>
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-md fixed-top bg-warning px-3">
+  <a class="navbar-brand fw-bold text-white" href="#">
+    Ice<span class="text-dark">World</span>
+  </a>
+
+  <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="menu">
+    <ul class="navbar-nav mx-auto mb-2 mb-md-0">
+      <li class="nav-item"><a class="nav-link text-white" href="#home">Home</a></li>
+      <li class="nav-item"><a class="nav-link text-white" href="#menu1">Menu</a></li>
+      <li class="nav-item"><a class="nav-link text-white" href="#categories">Categories</a></li>
+      <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
+    </ul>
+    <button class="btn btn-light me-2"><i class="ri-shopping-cart-line"></i></button>
+    <button class="btn btn-light"><i class="ri-notification-3-fill"></i></button>
+  </div>
+</nav>
+
+
+<section id="home" class="container py-5 mt-5">
+  <div class="row align-items-center">
+    <div class="col-md-6 text-center text-md-start">
+      <h1 class="fw-bold">
+        WELCOME TO OUR <span class="text-warning">ICE CREAM</span> WORLD
+      </h1>
+      <p class="text-muted">
+        Indulge in a delightful journey of flavors with our creamy and delicious ice creams.
+      </p>
+      <button class="btn btn-warning px-4">Buy Now</button>
+    </div>
+    <div class="col-md-6">
+      <img src="/header.png" class="img-fluid" alt="icecream">
+    </div>
+  </div>
+</section>
+
+
+<section class="container py-5" id="menu1">
+  <h2 class="text-center fw-bold mb-4">Popular Ice-Cream</h2>
+  <div class="row g-4">
+    <div class="col-md-6 col-lg-4">
+      <div class="card text-center shadow">
+        <img src="/popular-1.png" class="card-img-top p-4">
+        <div class="card-body">
+          <h5>Mango Tango Sorbet</h5>
+          <h6 class="text-warning">$5.49</h6>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-4">
+      <div class="card text-center shadow">
+        <img src="/popular-2.png" class="card-img-top p-4">
+        <div class="card-body">
+          <h5>Chocolate Fudge Delight</h5>
+          <h6 class="text-warning">$5.99</h6>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-4">
+      <div class="card text-center shadow">
+        <img src="/popular-3.png" class="card-img-top p-4">
+        <div class="card-body">
+          <h5>Strawberry Swirl Bliss</h5>
+          <h6 class="text-warning">$4.99</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="container py-5" id="categories">
+  <h2 class="fw-bold mb-3">Most Selling Ice-Cream</h2>
+  <p class="text-muted mb-4">
+    Discover our crowd favorites that everyone loves.
+  </p>
+
+  <div class="row g-4">
+    <div class="col-md-6">
+      <img src="/discover-1.jpg" class="img-fluid rounded">
+    </div>
+    <div class="col-md-6">
+      <h4>Double Chocolate Crunch</h4>
+      <p class="text-muted">
+        Rich chocolate ice cream with crunchy chocolate chunks.
+      </p>
+      <h5>$6.99 <s class="text-muted">$9.99</s></h5>
+      <button class="btn btn-warning">Buy Now</button>
+    </div>
+  </div>
+</section>
+
+
+<section class="container py-5" id="contact">
+  <div class="bg-light p-5 rounded text-center">
+    <h2 class="fw-bold">Subscribe For Discounts</h2>
+    <p class="text-muted">
+      Get updates and exclusive offers directly in your inbox.
+    </p>
+    <form class="d-flex flex-column flex-md-row gap-3 justify-content-center">
+      <input type="email" class="form-control w-50" placeholder="Type Your Email">
+      <button class="btn btn-warning">Subscribe</button>
+    </form>
+  </div>
+</section>
+
+
+<footer class="bg-light text-center py-3">
+  <p class="mb-0">© 2025 IceWorld. All rights reserved.</p>
+</footer>
+</body>
+</html>
